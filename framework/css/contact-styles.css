@@ -1,0 +1,115 @@
+main h2 {
+    letter-spacing: -1.5px;
+    display: block;
+}
+
+
+p {
+    width: 100%;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75vw;
+    max-width: 400px;
+    padding-top: 1rem;
+}
+
+input {
+    border: 1px solid var(--md-pink);
+    border-radius: 3px;
+    padding-top: .5rem;
+}
+
+.attendance {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    padding: 0 0 1rem 0;
+
+}
+
+.num-of-guests {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.num-of-guests input {
+    width: 3rem;
+    text-align: center;
+}
+
+.num-of-guests .error {
+    width: 100%;
+    color: rgb(216, 33, 33);
+    font-size: .75rem;
+    margin: .25rem 0 0 0;
+    padding: 0;
+}
+
+.error-hidden {
+    margin-bottom: 1.125rem;
+}
+
+.guest-list {
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.guest-names {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 1rem;
+}
+
+.guest-names label {
+    width: 100%;
+}
+
+.guest-names input {
+    width: 100%;
+}
+
+.wedding-song {
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 1rem;
+}
+.wedding-song p {
+    margin-top: 0.25rem;
+    padding: 0 0.15rem;
+    text-align: justify;
+    font-size: .75rem;
+    line-height: 1rem;
+}
+
+.wedding-song input{
+    width: 100%;
+}
+
+.rsvp-btn {
+    width: 100%;
+    background-color: var(--lt-burgundy);
+    color: var(--lt-pink);
+    font-weight: bold;
+    letter-spacing: .25rem;
+    padding: .5rem 0 0 0;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.hidden {
+    display: none;
+}
+
